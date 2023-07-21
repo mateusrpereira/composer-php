@@ -3,6 +3,9 @@
     "description": "Projeto que busca os cursos no site do Senac",
     "type": "library",
     "autoload": {
+        "files": [
+            "functions.php"
+        ],
         "psr-4": {
             "mateusrpereira\\composer-php\\": "src/"
         }
@@ -20,5 +23,6 @@
     },
     "require-dev": {
         "phpunit/phpunit": "^10.2"
-    }
+    },
+    "license": "GPL-3.0"
 }
